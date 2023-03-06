@@ -88,7 +88,7 @@ h2 {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color:rgba(87, 218, 235, 0.5);
+    background-color: rgba(87, 218, 235, 0.5);
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -106,3 +106,30 @@ h2 {
     color: #ffffff56;
 }
 
+
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .container {
+        height: 300px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .paragraph,
+    .paragraph_2,
+    .sudpar {
+        margin: 0;
+    }
+
+    .paragraph img,
+    .paragraph_2 img {
+        float: none;
+        margin: 1rem auto;
+    }
