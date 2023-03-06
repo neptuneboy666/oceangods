@@ -1,0 +1,108 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("https://cdn.discordapp.com/attachments/1050792777660780544/1082265118387220530/neptuneboy666_Film_screengrab_the_empire_of_the_sea_sci-fi_futu_d26ea325-1b92-48f0-8371-2c84419cb49e.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(150, 199, 228, 0.938);
+    font-family: 'Genos', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 400%;
+}
+
+.container {
+    width: 600px;
+    height: 400px;
+    border: 2px solid rgba(5, 68, 32, 0);
+
+}
+
+
+.container img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+
+}
+
+h2 {
+    font-size: 250%;
+    color: rgba(240, 255, 255, 0.664);
+    ;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+}
+
+
+.container img:hover,
+.paragraph img:hover,
+.paragraph_2 img:hover {
+    opacity: 0.8;
+}
+
+.paragraph {
+    background-color: rgba(240, 255, 255, 0.342);
+    color: rgb(6, 37, 46);
+    margin: 0rem 10rem;
+    padding: 2rem;
+
+}
+
+.paragraph img {
+    float: left;
+    margin: 1rem;
+}
+
+.paragraph_2 {
+    background-color: rgba(240, 255, 255, 0.342);
+    color: rgb(6, 37, 46);
+    margin: 0rem 10rem;
+    padding: 2rem;
+
+}
+
+.paragraph_2 img {
+    float: right;
+    margin: 1rem;
+}
+
+.sudpar {
+    margin: 0 20rem;
+    padding-top: 2rem;
+    color: azure;
+}
+
+
+
+.back-to-home {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:rgba(87, 218, 235, 0.5);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.493);
+}
+
+.back-to-home a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.back-to-home a:hover {
+    color: #ffffff56;
+}
+
